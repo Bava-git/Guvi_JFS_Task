@@ -11,7 +11,7 @@ public class Question_04 {
 		// Scanner object for get input
 		Scanner scan = new Scanner(System.in);
 
-		// Get value from user
+		// Get value from user (only reads in int)
 		System.out.println("To find smallest number please insert the number below");
 		System.out.print("Enter Number 1 : ");
 		int Number_1 = scan.nextInt();
@@ -20,7 +20,7 @@ public class Question_04 {
 		System.out.print("Enter Number 3 : ");
 		int Number_3 = scan.nextInt();
 
-		// initialize if statement for compare 3 numbers 
+		// initialize IF statement for compare 3 numbers 
 		if ((Number_1 < Number_2) && (Number_1 < Number_3)) {  // if Number_1 is lowest
 			System.out.println("Number 1 is the smallest number among three numbers");
 		} else if ((Number_2 < Number_1) && (Number_2 < Number_3)) {  // if Number_2 is lowest

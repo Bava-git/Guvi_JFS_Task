@@ -8,18 +8,19 @@ public class Question_02 {
 		
 		// Write a program that find a given number negative or positive
 
-		// Scanner object for input
+		// Scanner object for get input
 		Scanner scan = new Scanner(System.in);
 		
 		// Get value from user
+		System.out.println("To find a number is negative or positive");
 		System.out.print("Please insert an number: ");
-		int inputValue = scan.nextInt();
+		double inputValue = scan.nextDouble();
 		
-		// init if for compare given value with 0 to testament the output
+		// Initiating IF statement for compare given value with 0 to testament the output
 		if (inputValue < 0) {
-			System.out.println("Given value is Negative");
+			System.out.println(inputValue + " is Negative number");
 		} else {
-			System.out.println("Given value is Positive");
+			System.out.println(inputValue + " is Positive number");
 		}
 		
 		// Exit from program
