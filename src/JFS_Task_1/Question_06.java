@@ -13,10 +13,14 @@ public class Question_06 {
 
 		// Get value from user.
 <<<<<<< HEAD
+<<<<<<< HEAD
 		// System.out.println("To generate matrix");
 =======
 //		System.out.println("To generate matrix");
 >>>>>>> d0a3402 (JFS Task 2)
+=======
+//		System.out.println("To generate matrix");
+>>>>>>> d0a3402239e910a44747462e23595e7d106e9e9d
 		System.out.print("Enter an number : ");
 		int inputValue = scan.nextInt();
 
