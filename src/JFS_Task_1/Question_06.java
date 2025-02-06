@@ -12,7 +12,11 @@ public class Question_06 {
 		Scanner scan = new Scanner(System.in);
 
 		// Get value from user.
+<<<<<<< HEAD
 		// System.out.println("To generate matrix");
+=======
+//		System.out.println("To generate matrix");
+>>>>>>> d0a3402 (JFS Task 2)
 		System.out.print("Enter an number : ");
 		int inputValue = scan.nextInt();
 
