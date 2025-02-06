@@ -65,6 +65,9 @@ public class BankAccount {
 
 	public static void main(String[] args) {
 
+		System.out.println("Welcome to VIP bank");
+		System.out.println("Please note Minimum balance is 500 rupees");
+		System.out.println();
 		System.out.println("No argument constructor");
 		BankAccount Account1 = new BankAccount();
 		Account1.Deposit(10);
