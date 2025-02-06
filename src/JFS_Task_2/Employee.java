@@ -30,7 +30,7 @@ public class Employee extends Person {
 
 	// Display employee details
 	public void DisplayEmployeeDetails() {
-		System.out.println("Employee Details");
+		System.out.println("Employee Details : ");
 		System.out.println("");
 		// call method from subclass
 		super.DisplayPersonalDetails();
