@@ -72,7 +72,7 @@ public class BankAccount {
 
 		System.out.println("No argument constructor");
 		BankAccount Account1 = new BankAccount();
-		Account1.Deposit(10);
+		Account1.Deposit(20);
 		Account1.Withdraw(200);
 		Account1.DisplayBalance();
 
