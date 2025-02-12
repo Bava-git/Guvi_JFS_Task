@@ -1,0 +1,13 @@
+Ramesh is developing a student management system for a university
+in this system you have a student class to represent student information
+you are asked to help ramesh to handle exception which can be occurred into program 
+according to following scenarios
+
+class student with attributes roll no, name and course initialza values through parameterized
+constructor
+
+if the age of the student is not between 15 to 21 
+then generate a user-defined exception "AgeNotWithinRangeException"
+
+if a name contains numbers or special symbols raise exception
+"NameNotValidException", define the two exception classes. 
